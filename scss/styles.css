@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 20vh;
+  border-bottom: solid 1px black;
+}
+header .titulo-animado {
+  font-size: 40px;
+  color: white;
+  animation: agrandarTitulo 5s ease-out forwards;
+}
+@keyframes agrandarTitulo {
+  0% {
+    font-size: 40px;
+    color: white;
+  }
+  100% {
+    font-size: 40px;
+    color: black;
+  }
+}
+header #titulo h1 {
+  font-size: 40px;
+}
+header #titulo1 a {
+  text-decoration: none;
+  color: black;
+}
+header #titulo a {
+  text-decoration: none;
+  color: black;
+}
+header #titulo a h1:hover {
+  color: #f9b51d;
+  font-weight: bold;
+}
+header #ingreso {
+  padding-top: 15px;
+  vertical-align: middle;
+}
+
+main {
+  height: 70vh;
+  background-image: linear-gradient(to top, white, white, white, #00ab9b);
+}
+main h2 {
+  text-align: center;
+}
+main .dropdown {
+  padding: 5px;
+}
+main .dropdown li a {
+  background-color: white;
+}
+main li {
+  list-style-type: none;
+  text-align: center;
+  background-color: #f9b51d;
+  border-radius: 20px;
+  transition: background-color 1s;
+}
+main li a {
+  text-decoration: none;
+  color: black;
+  transition: color 1s;
+}
+main li a:hover {
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+
+footer {
+  height: 10vh;
+  background-color: #ff0039;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */

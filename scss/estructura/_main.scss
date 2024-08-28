@@ -1,0 +1,30 @@
+main {
+    height: 70vh; 
+    background-image: linear-gradient(to top, white, white, white, #00ab9b);      
+    h2{
+    text-align: center;
+    }
+    .dropdown {
+        padding: 5px;
+        li a {
+            background-color: white;
+            }
+    }
+    li {
+    list-style-type: none;
+    text-align: center;
+    background-color: #f9b51d;
+    border-radius: 20px;
+    transition: background-color 1s;
+        a {
+        text-decoration: none;
+        color: black;
+        transition: color 1s;
+        }
+        a:hover {
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+        }
+    }
+}
